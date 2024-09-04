@@ -7,7 +7,7 @@
 
 body {
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
 }
 
 .container {
@@ -17,63 +17,63 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.profile h1 {
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 180px; /* Adjust width */
+    height: auto;  /* Automatically scale height based on width */
+    margin-right: 30px;
+    /* Removed border-radius for rectangle shape */
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-.profile p {
+.profile-details p {
     font-size: 1.2em;
+    color: #666;
 }
 
-.profile-pic img {
-    width: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #f76c6c;
+.social-icons {
+    margin: 20px 0;
 }
 
-.profile a.linkedin-btn {
-    color: #fff;
+.social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
-    background-color: #f76c6c;
-    padding: 10px 20px;
-    border-radius: 5px;
 }
 
-.contact-icons {
-    margin-top: 10px;
-}
-
-.contact-icons a {
-    margin-right: 20px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #fff;
-    background-color: #0077b5;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-.contact-icons a img {
+.social-icons a img {
     width: 20px;
     vertical-align: middle;
     margin-right: 5px;
 }
 
+.download-links {
+    margin-top: 20px;
+}
+
 .download-links .badge {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #f76c6c;
+    background-color: #0077b5;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -82,16 +82,17 @@ header {
 }
 
 .download-links .badge:hover {
-    background-color: #ff5c5c;
+    background-color: #005f94;
 }
 
 section {
-    padding: 20px 0;
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 section h2 {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #333;
 }
 
@@ -100,62 +101,29 @@ ul {
     padding-left: 20px;
 }
 
-.collapsible {
-    margin: 20px 0;
-}
-
-.collapsible-btn {
-    background-color: #f76c6c;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
-}
-
-.collapsible-btn.active,
-.collapsible-btn:hover {
-    background-color: #ff5c5c;
-}
-
-.content {
-    display: none;
-    padding: 0 18px;
-    overflow: hidden;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.content h3 {
+.experience-details h3 {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-.content p,
-.content ul {
-    margin-bottom: 10px;
+.experience-details ul {
+    margin-top: 10px;
 }
 
 .date-right {
     float: right;
     font-size: 0.9em;
-    color: #555;
+    color: #999;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-footer p {
-    margin: 0;
+footer a {
+    color: #0077b5;
+    text-decoration: none;
 }
