@@ -50,6 +50,41 @@ header {
     border-radius: 5px;
 }
 
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0077b5;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.contact-icons a img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.download-links .badge {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f76c6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.download-links .badge:hover {
+    background-color: #ff5c5c;
+}
+
 section {
     padding: 20px 0;
 }
@@ -60,22 +95,57 @@ section h2 {
     color: #333;
 }
 
-section p,
-section ul {
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.collapsible {
+    margin: 20px 0;
+}
+
+.collapsible-btn {
+    background-color: #f76c6c;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.collapsible-btn.active,
+.collapsible-btn:hover {
+    background-color: #ff5c5c;
+}
+
+.content {
+    display: none;
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.content h3 {
+    font-size: 1.4em;
     margin-bottom: 10px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.content p,
+.content ul {
+    margin-bottom: 10px;
 }
 
-ul li {
-    background: #f76c6c;
-    padding: 10px;
-    margin: 5px 0;
-    color: #fff;
-    border-radius: 5px;
+.date-right {
+    float: right;
+    font-size: 0.9em;
+    color: #555;
 }
 
 footer {
