@@ -13,10 +13,24 @@
             <div class="profile">
                 <h1>Hossein Aghaei</h1>
                 <p>Software Engineer | Computer Engineering Student</p>
-                <a href="https://www.linkedin.com/in/hossein-aghaei-araei/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                <div class="contact-icons">
+                    <a href="mailto:h.aghaei.apply@gmail.com">Email Me</a>
+                    <a href="https://github.com/hoseinaghaei" target="_blank">
+                        <img src="github-logo.png" alt="GitHub" class="icon"> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/hossein-aghaei-araei/" target="_blank">
+                        <img src="linkedin-logo.png" alt="LinkedIn" class="icon"> LinkedIn
+                    </a>
+                </div>
+                <div class="download-links">
+                    <a href="https://drive.google.com/file/d/1nnqSVuhClvs2NgRHCi21pgVIcou0uLLi/view?usp=sharing" target="_blank" class="badge">Download Transcript</a>
+                    <a href="https://drive.google.com/file/d/1OfxdsFWwWIuJ4w6RIter336EA3QdCaHF/view?usp=sharing" target="_blank" class="badge">Download Resume</a>
+                </div>
             </div>
             <div class="profile-pic">
-                <img src="aghaei.jpg" alt="Hossein Aghaei Photo">
+                <a href="https://drive.google.com/file/d/1OfxdsFWwWIuJ4w6RIter336EA3QdCaHF/view?usp=sharing" target="_blank">
+                    <img src="aghaei.jpg" alt="Hossein Aghaei Photo">
+                </a>
             </div>
         </div>
     </header>
@@ -26,14 +40,8 @@
             <h2>About Me</h2>
             <p>
                 I am a highly motivated and skilled Software Engineer and Computer Engineering student at Sharif University of Technology.
-                I have extensive experience in software development, databases, and system architecture. My research interests include Software Engineering, Databases, IoT, and Cyber-Physical Systems.
+                I have extensive experience in software development, databases, and system architecture. My research interests include:
             </p>
-        </div>
-    </section>
-
-    <section class="research-interests">
-        <div class="container">
-            <h2>Research Interests</h2>
             <ul>
                 <li>Software Engineering & Programming Language</li>
                 <li>Database & Internet of Things</li>
@@ -44,63 +52,35 @@
         </div>
     </section>
 
-    <section class="education">
-        <div class="container">
-            <h2>Education</h2>
-            <p><strong>Sharif University of Technology (2019 - Present)</strong></p>
-            <ul>
-                <li>Bachelor of Science, Computer Engineering</li>
-                <li>GPA: 19.12/20</li>
-            </ul>
+    <section class="collapsible">
+        <button class="collapsible-btn">Research Experience</button>
+        <div class="content">
+            <h3>RADIAN Lab <span class="date-right">Sep: 2023 - Present</span></h3>
+            <p>Working under the direct supervision of Professor Bardia Safaei. Suggested and started a project on databases for the whole department for the first time. Compared existing SQL/No-SQL/Time-Series databases for IoT (Detail and Presentation Link). Collected several Time-Series datasets and profiled the IoTDB in a cluster using the MQTT protocol.</p>
+
+            <h3>Cyber Physical System Lab <span class="date-right">Feb: 2024 - Present</span></h3>
+            <p>Collaborating with Mr. Amirhossein Ansari and Professor Mohsen Ansari on the paper “Thermal-Aware Fault-Tolerance in Heterogeneous Multi-Core Systems Using Adaptive Machine Learning” (Under Preparation). Presented several papers on Thermal-Aware Multi-Core Systems. Rewrote MiBench codes to Python and Java. Executed MiBench codes in the gem5 x86 architecture simulator, converted the outputs to McPAT input, and got the power usage and area (GitHub). Collaborated on a survey about Resource Sharing in Real-Time Systems with Professor Ansari and Dr. Safari (Under Preparation).</p>
         </div>
     </section>
 
-    <section class="work-experience">
-        <div class="container">
-            <h2>Work Experience</h2>
+    <section class="collapsible">
+        <button class="collapsible-btn">Work Experience</button>
+        <div class="content">
+            <h3>Senior Software Engineer at Digikala</h3>
             <ul>
-                <li><strong>Senior Software Engineer at Digikala</strong> (Jul 2022 - Present)</li>
-                <li><strong>Software Engineer at Mohaymen</strong> (Feb 2021 - Nov 2021)</li>
+                <li>Conducted several advanced MySQL courses for about 200 engineers.</li>
+                <li>Member of the database disaster management team.</li>
+                <li>Led the promotion team for 2 Black Friday campaigns with 800k online users.</li>
+                <li>Developed features on our native framework to decrease 21% of Redis queue sizes.</li>
+                <li>Developed a micro-service for stock management with distributed transactions and about 50k requests/second.</li>
             </ul>
-        </div>
-    </section>
 
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
+            <h3>Software Engineer at Mohaymen</h3>
             <ul>
-                <li>Programming Languages: Java, .NET, Python, C, C++, PHP, Node.js</li>
-                <li>Technologies: Docker, Redis, Kafka, MySQL, PostgreSQL, MongoDB, Elasticsearch</li>
-                <li>Agile, Clean Architecture, Design Patterns, Test Automation</li>
+                <li>Developed a fast multi-operational CSV parser in .NET that reads a 4G file in 8 seconds.</li>
+                <li>Wrote a reliable Nugget package to run multiple programming language scripts, such as .NET, Python, R, and Matlab, with extensive data in a remote Jupyter Notebook server.</li>
+                <li>Developed a logging system to track a request among different services.</li>
             </ul>
-        </div>
-    </section>
-
-    <section class="research-experience">
-        <div class="container">
-            <h2>Research Experience</h2>
-            <ul>
-                <li>Comparing SQL/NoSQL/Time-Series databases for IoT at RADIAN Lab</li>
-                <li>Profiling IoTDB in a cluster using MQTT protocol</li>
-                <li>Several papers on Thermal-Aware Fault-Tolerance in Multi-Core Systems</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="volunteer">
-        <div class="container">
-            <h2>Volunteer Experience</h2>
-            <ul>
-                <li>Teaching Assistant: Technical Presentation, Database Design, Signals And Systems, Software Engineering</li>
-                <li>Mentorship: Teaching Chemistry and Math (ALPHA group), Editing Chemistry books for university entrance exams</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: h.aghaei.apply@gmail.com</p>
         </div>
     </section>
 
@@ -109,5 +89,22 @@
             <p>&copy; 2024 Hossein Aghaei</p>
         </div>
     </footer>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible-btn");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
