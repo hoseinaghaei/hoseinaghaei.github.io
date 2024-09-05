@@ -7,23 +7,21 @@
     <title>Hossein Aghaei - Software Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+        <!-- Warning banner for non-PC users -->
+        <div id="warning-banner" style="display:none; background-color: #f76c6c; color: white; text-align: center; padding: 10px;">
+            You are not using a PC! This site is optimized for desktop. For the best experience, please switch to a PC or laptop.
+        </div>
+
     <header>
         <div class="container">
             <div class="profile">
-                <img src="https://drive.google.com/thumbnail?id=1drR_c-nz4inqEiwAEAeFCKfa_X5Em1xt" alt="Hossein Aghaei" class="profile-pic">
+                <img src="me.jpg" alt="Hossein Aghaei" class="profile-pic">
                 <div class="profile-details">
                     <h1>Hossein Aghaei</h1>
-                    <h3>
-                        Student of Computer Engineering @ Sharif University Of Technology <span class="date-right">GPA: 19.12/20 (4/4)</span> <br>
-                        Senior Software Engineer @ Digikala
-                    </p>
-                    <!-- <p>Email: <a href="mailto:h.aghaei.apply@gmail.com">h.aghaei.apply@gmail.com</a></p> -->
-                    <!-- <p>Email: <a href="mailto:h.aghaei.araei@gmail.com">h.aghaei.araei@gmail.com</a></p> -->
-                    <div class="social-icons">
-                        <a href="mailto:h.aghaei.apply@gmail.com" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gmail_Icon.png/640px-Gmail_Icon.png" alt="Gmail" class="icon"> h.aghaei.apply@gmail.com
-                        </a>
+                    <div class="social-icons"> 
                         <a href="mailto:h.aghaei.araei@gmail.com" target="_blank">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gmail_Icon.png/640px-Gmail_Icon.png" alt="Gmail" class="icon"> h.aghaei.araei@gmail.com
                         </a>
@@ -35,84 +33,228 @@
                         </a>
                     </div>
                     <div class="download-links">
-                        <a href="https://drive.google.com/file/d/1nnqSVuhClvs2NgRHCi21pgVIcou0uLLi/view?usp=sharing" target="_blank" class="badge">Download Transcript</a>
-                        <a href="https://drive.google.com/file/d/1OfxdsFWwWIuJ4w6RIter336EA3QdCaHF/view?usp=sharing" target="_blank" class="badge">Download Resume</a>
+                        <a href="transcript.pdf" target="_blank" class="badge">Download Transcript</a>
+                        <a href="CV-Hossein-Aghaei.pdf" target="_blank" class="badge">Download Resume</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-
-    <section class="research">
-        <div class="container">
-            <h1>Education</h1>
-            <ul>
-                <li>Software Engineering & Programming Language</li>
-                <li>Database & Internet of Things</li>
-                <li>Embedded & Real-Time Systems</li>
-                <li>Distributed Systems & Compilers</li>
-                <li>Networks</li>
-            </ul>
+    <section class="row">
+        <div class="column">
+            <section class="research" id="education-section">
+                <div class="container">
+                    <h2><span class="toggle-icon" onclick="toggleSection('education-section')">^</span> Education</h2>
+                    <div class="section-content">
+                        <div class="indented-list-long">
+                            <h3>Sharif University of Technology (SUT)</h3>
+                            <ul class="indented-list">
+                                <li>Bachelor of Science, <a href="https://ce.sharif.ir/">Computer Engineering</a></li>
+                                <li>GPA: 19.12/20 (Last 2 years: 19.83/20)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>            
         </div>
-    </section>
-
-
-    <section class="research">
-        <div class="container">
-            <h1>Research Interests</h1>
-            <ul>
-                <li>Software Engineering & Programming Language</li>
-                <li>Database & Internet of Things</li>
-                <li>Embedded & Real-Time Systems</li>
-                <li>Distributed Systems & Compilers</li>
-                <li>Networks</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="experience">
-        <div class="container">
-            <h2>Research Experience</h2>
-            <div class="experience-details">
-                <h3>RADIAN Lab <span class="date-right">Sep: 2023 - Present</span></h3>
     
-                <p>Working under the direct supervision of Professor Bardia Safaei. Suggested and started a project on databases for the department, comparing SQL/No-SQL/Time-Series databases for IoT. Collected datasets and profiled IoTDB in a cluster using MQTT protocol.</p>
-
-                <h3>Cyber Physical System Lab <span class="date-right">Feb: 2024 - Present</span></h3>
-                <p>Cooperated on a paper, “Thermal-Aware Fault-Tolerance in Heterogeneous Multi-Core Systems Using Adaptive Machine Learning,” in collaboration with Professor Ansari and Mr. Amirhossein Ansari. Rewrote MiBench codes to Python/Java, and profiled them in gem5.</p>
-            </div>
+        <div class="column">
+            <section class="research" id="research-section">
+                <div class="container">
+                    <h2><span class="toggle-icon" onclick="toggleSection('research-section')">^</span> Research Interests</h2>
+                    <div class="section-content">
+                        <div class="indented-list">
+                            <ul class="indented-list-long">
+                                <li>Software Engineering & Programming Language</li>
+                                <li>Database & Internet of Things</li>
+                                <li>Embedded & Real-Time Systems</li>
+                                <li>Distributed Systems & Compilers</li>
+                                <li>Networks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
+    
 
-    <section class="experience">
+    <section class="row" id="research-experience-section">
         <div class="container">
-            <h2>Work Experience</h2>
-            <div class="experience-details">
-                <h3>Senior Software Engineer at Digikala</h3>
-                <ul>
-                    <li>Conducted MySQL training for over 200 engineers</li>
-                    <li>Led database disaster management team</li>
-                    <li>Developed features that reduced Redis queue size by 21%</li>
-                    <li>Managed a microservice handling 50k requests/second</li>
-                </ul>
+            <h2><span class="toggle-icon" onclick="toggleSection('research-experience-section')">^</span> Research Experience</h2>
+            <div class="section-content">
+                <div class="indented-list-long">
+                    <h3> <a href="https://sharif.edu/~bardiasafaei/RADIAN-Lab.html">RADIAN Lab</a> <span class="date-right">Sep: 2023 - Present</span></h3>
+                    <ul class="indented-list-long">
+                        <li>Working under the direct supervision of <a href="http://www.im-creator.com/free/bardiasafaei/homepage">Professor Bardia Safaei</a>.</li>
+                        <li>Suggest and start a project on <b>Databases</b> in whole department for <b>the first time</b>.</li>
+                        <li>Compare existing <b>SQL/No-SQL/Time-Series databases</b> for <b>IoT</b> <a href="https://www.linkedin.com/posts/hossein-aghaei-araei_apache-iotdb-presentation-slides-activity-7149417499128721408-8dEQ?utm_source=share&utm_medium=member_desktop">(See More)</a></li>
+                        <li>Collect several <b>Time-Series datasets</b> and profile the <b><a href="https://iotdb.apache.org">IoTDB</a></b> in a cluster using the <b>MQTT</b> protocol.</li>
+                    </ul>
+                        <br>
+                    <h3> <a href="https://sharif.edu/~ansari/"> Cyber-Physical System Lab</a> <span class="date-right">Feb: 2024 - Present</span></h3>
+                    <ul class="indented-list-long">
+                        <li>Working on <b>the paper “Thermal-Aware Fault-Tolerance in Heterogeneous Multi-Core Systems Using Adaptive Machine Learning”</b> in collaboration with <a href="https://sharif.edu/~ansari/"> Professor Ansari</a> and Mr. Amirhossein Ansari.</li>
+                        <li>Present Several papers on <b>Thermal-Aware Multi-Core Systems</b>.</li>
 
-                <h3>Software Engineer at Mohaymen</h3>
-                <ul>
-                    <li>Built a CSV parser in .NET processing 4GB files in 8 seconds</li>
-                    <li>Developed a Nugget package to run multiple language scripts</li>
-                    <li>Designed a system to track requests across multiple services</li>
-                </ul>
+                        <ul class="indented-list-long">
+                            <li>
+                                <b>
+                                    <a href="https://ieeexplore.ieee.org/document/8955960">
+                                        Combinatorial Auctions for Temperature-Constrained Resource Management in Manycores
+                                    </a>
+                                </b>
+                            </li>
+                            <li>
+                                <b>
+                                    <a href="https://ieeexplore.ieee.org/document/9052172">
+                                        Thermally Composable Hybrid Application Mapping for Real-Time Applications in Heterogeneous Many-Core Systems                                    </a>
+                                </b>
+                            </li>
+                        </ul>
+                        <li>
+                            Rewrite <b><a href="https://vhosts.eecs.umich.edu/mibench/">MiBench</a></b> codes to <b>Python</b> and <b>Java</b>.
+                        </li>
+                        <li>
+                            Execute <b>MiBench</b> codes in the <b><a href="https://github.com/gem5/gem5">gem5</a></b> x86 and ARM architecture simulator, convert the outputs to <b><a href="https://github.com/HewlettPackard/mcpat">McPAT</a></b> input, and get <b>the power usage and area</b> (<b><a href="https://github.com/hoseinaghaei/mibench">github</a></b>).
+                        </li>
+                        <li>
+                            Cooperate on a survey about <b>Resource Sharing in Real-Time Systems</b> with Professor Ansari and Dr.Safari (Under Preparation).
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="row" id="work-experience-section">
+        <div class="container">
+            <h2><span class="toggle-icon"  onclick="toggleSection('work-experience-section')">^</span> Work Experience </h2>
+            <div class="section-content">
+                <div class="indented-list-long">
+                    <h3>Senior Software Engineer at <a href="https://www.digikala.com/">Digikala</a></h3>
+                    <ul class="indented-list-long">
+                        <li>Conducted <b>advanced MySQL</b> workshop for over <b>200</b> engineers</li>
+                        <li><b>Lead</b> of the promotion team for <b>2 Black Friday campaigns</b> with <b>800k online users</b>.</li>
+                        <li>Member of <b>the database disaster management team</b></li>
+                        <li>Develop features on our native framework to <b>decrease 21% of Redis queue sizes</b>.</li>
+                        <li>Develop a <b>micro-service</b> for stock management with <b>distributed transactions</b> and about <b>50k requests/second</b>. </li>
+                    </ul>
+                    <br>
+
+                    <h3>Software Engineer at Mohaymen</h3>
+                    <ul class="indented-list-long">
+                        <li>Develop a <b>super-fast</b> multi-operational CSV parser in <b>.NET</b> read a <b>4G</b> file in <b>8 seconds</b>. </li>
+                        <li>Write a reliable Nugget package to run multiple programming language scripts, such as <b>.NET, Python, R, and Matlab</b> with <b>extensive data</b> in a <b>remote Jupyter Notebook server</b>.</li>
+                        <li>Develop a <b>logging</b> system to track a request among <b>different services</b>.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="row">
+        <div class="column">
+            <section class="research" id="skill-section">
+                <div class="container">
+                    <h2><span class="toggle-icon" onclick="toggleSection('skill-section')">^</span> Skills</h2>
+                    <div class="section-content">
+                        <div class="indented-list-long">
+                            <h3>Sharif University of Technology (SUT)</h3>
+                            <ul class="indented-list">
+                                <li>Bachelor of Science, <a href="https://ce.sharif.ir/">Computer Engineering</a></li>
+                                <li>GPA: 19.12/20 (Last 2 years: 19.83/20)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+        </div>
+    
+        <div class="column">
+            <section class="research" id="volunteer-experiences-section">
+                <div class="container">
+                    <h2><span class="toggle-icon" onclick="toggleSection('volunteer-experiences-section')">^</span> Volunteer Experiences</h2>
+                    <div class="section-content">
+                        <div class="indented-list">
+                            <ul class="indented-list-long">
+                                <li>Software Engineering & Programming Language</li>
+                                <li>Database & Internet of Things</li>
+                                <li>Embedded & Real-Time Systems</li>
+                                <li>Distributed Systems & Compilers</li>
+                                <li>Networks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    
+
+    <section class="row">
+    <div class="container section-half">
+        <h2>Skills</h2>
+        <ul class="indented-list-long">
+            <li><b>Programming Languages:</b> Java, .NET, Python, Node.js, PHP, C, C++, R, Assembly, Verilog</li>
+            <li><b>Technologies:</b> Git, Docker, Redis, Kafka, Memcached, MySQL, PostgreSQL, MongoDB, Elasticsearch</li>
+            <li><b>Coding:</b> SOLID, Test (Unit, Integration), Design Patterns, Agile methodologies, Clean Architecture</li>
+        </ul>
+    </div>
+
+    <div class="container section-half">
+        <h2>Volunteer Experiences</h2>
+        <ul class="indented-list-long">
+            <li>Teaching Assistant for Technical Presentation, Database Design, Signals and Systems</li>
+            <li>Mentorship in Chemistry and Math to over 500 students since 2019</li>
+            <li>Edit and author 7 books in Chemistry for Konkur (university entrance exam)</li>
+        </ul>
+    </div>
+</section>
+
 
     <footer>
         <div class="container">
             <p>&copy; 2024 Hossein Aghaei</p>
-            <p>Email: <a href="mailto:h.aghaei.apply@gmail.com">h.aghaei.apply@gmail.com</a></p>
+            <p>Email: <a href="mailto:h.aghaei.araei@gmail.com">h.aghaei.araei@gmail.com</a></p>
         </div>
     </footer>
+
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const content = section.querySelector('.section-content');
+            const toggleIcon = section.querySelector('.toggle-icon');
+            
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggleIcon.textContent = 'v';  // Down arrow
+            } else {
+                content.style.display = 'none';
+                toggleIcon.textContent = '^';  // Up arrow
+            }
+        }
+
+        // Initialize all sections to be expanded
+        document.querySelectorAll('.section-content').forEach((content) => {
+            content.style.display = 'block';
+        });
+
+        // Function to detect non-PC devices
+        function detectNonPCDevices() {
+            const userAgent = navigator.userAgent;
+            const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
+
+            if (isMobile) {
+                document.getElementById('warning-banner').style.display = 'block';
+            }
+        }
+
+        // Call the detection function when the page loads
+        window.onload = detectNonPCDevices;
+    </script>
 
 </body>
 </html>

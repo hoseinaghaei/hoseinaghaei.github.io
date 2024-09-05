@@ -86,9 +86,9 @@ header {
 }
 
 section {
-    padding: 40px 0;
-    border-bottom: 1px solid #ddd;
+    padding: 4px 0;
 }
+
 
 section h2 {
     font-size: 1.8em;
@@ -126,4 +126,45 @@ footer {
 footer a {
     color: #0077b5;
     text-decoration: none;
+}
+
+
+.toggle-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-left: 10px;
+    color: rgb(246, 90, 12);
+}
+
+.toggle-icon:hover {
+    color: #730808;
+}
+
+.indented-list {
+    padding-left: 30px;  /* Indents the entire list */
+    /* Alternatively, you can use margin-left */
+    /* margin-left: 30px; */
+}
+
+
+.indented-list-long {
+    padding-left: 60px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+}
+
+.column {
+    flex: 0 0 45%; /* Adjust the width of each column */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Move the Education section further to the right */
+.column:nth-child(1) {
+    margin-left: 5%; /* This will push the first column (Education) further to the right */
 }
