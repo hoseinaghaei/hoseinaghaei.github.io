@@ -45,7 +45,7 @@
         <div class="column">
             <section class="research" id="education-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('education-section')">^</span> Education</h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('education-section')">✖️</span> Education</h2>
                     <div class="section-content">
                         <div class="indented-list-long">
                             <h3>Sharif University of Technology (SUT)</h3>
@@ -62,7 +62,7 @@
         <div class="column">
             <section class="research" id="research-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('research-section')">^</span> Research Interests</h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('research-section')">✖️</span> Research Interests</h2>
                     <div class="section-content">
                         <div class="indented-list">
                             <ul class="indented-list-long">
@@ -82,7 +82,7 @@
 
     <section class="row" id="research-experience-section">
         <div class="container">
-            <h2><span class="toggle-icon" onclick="toggleSection('research-experience-section')">^</span> Research Experience</h2>
+            <h2><span class="toggle-icon" onclick="toggleSection('research-experience-section')">✖️</span> Research Experience</h2>
             <div class="section-content">
                 <div class="indented-list-long">
                     <h3> <a href="https://sharif.edu/~bardiasafaei/RADIAN-Lab.html">RADIAN Lab</a> <span class="date-right">Sep: 2023 - Present</span></h3>
@@ -130,7 +130,7 @@
 
     <section class="row" id="work-experience-section">
         <div class="container">
-            <h2><span class="toggle-icon"  onclick="toggleSection('work-experience-section')">^</span> Work Experience </h2>
+            <h2><span class="toggle-icon"  onclick="toggleSection('work-experience-section')">✖️</span> Work Experience </h2>
             <div class="section-content">
                 <div class="indented-list-long">
                     <h3>Senior Software Engineer at <a href="https://www.digikala.com/">Digikala</a> <span class="date-right">Jul:2022 - Present</span></h3>
@@ -159,7 +159,7 @@
         <div class="column">
             <section class="research" id="skill-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('skill-section')">^</span> Skills</h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('skill-section')">✖️</span> Skills</h2>
                     <div class="section-content">
                         <ul class="indented-list-long">
                             <li><b>Programming language: </b> <b>Java</b>, <b>.NET</b>, Python, Node.js, PHP, C, C++, R, Assembly.</li>
@@ -177,7 +177,7 @@
         <div class="column">
             <section class="research" id="related-course-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('related-course-section')">^</span> Related Courses</h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('related-course-section')">✖️</span> Related Courses</h2>
                     <div class="section-content">
                         <div class="indented-list">
                             <ul class="indented-list-long">
@@ -202,7 +202,7 @@
         <div class="column">
             <section class="research" id="ta-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('ta-section')">^</span> Teaching Assistant </h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('ta-section')">✖️</span> Teaching Assistant </h2>
                     <div class="section-content">
                         <ul class="indented-list-long">
                             <li>Technical Presentation (7 times)</li>
@@ -218,7 +218,7 @@
         <div class="column">
             <section class="research" id="teaching-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('teaching-section')">^</span> Teaching And Mentorship </h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('teaching-section')">✖️</span> Teaching And Mentorship </h2>
                     <div class="section-content">
                         <div class="indented-list">
                             <ul class="indented-list-long">
@@ -236,7 +236,7 @@
 
     <section class="row" id="project-section">
         <div class="container">
-            <h2><span class="toggle-icon" onclick="toggleSection('project-section')">^</span> Related Project</h2>
+            <h2><span class="toggle-icon" onclick="toggleSection('project-section')">✖️</span> Related Project</h2>
             <div class="section-content">
 
                 <ul class="indented-list-long">
@@ -264,7 +264,7 @@
         <div class="column">
             <section class="research" id="honor-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('honor-section')">^</span> Honours & Awards </h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('honor-section')">✖️</span> Honours & Awards </h2>
                     <div class="section-content">
                         <ul class="indented-list-long">
                             <li><b>Ranked 24th</b>, in Iranian University Entrance Exam among 164k students.</li>
@@ -277,7 +277,7 @@
         <!-- <div class="column">
             <section class="research" id="teaching-section">
                 <div class="container">
-                    <h2><span class="toggle-icon" onclick="toggleSection('teaching-section')">^</span> Teaching And Mentorship </h2>
+                    <h2><span class="toggle-icon" onclick="toggleSection('teaching-section')">✖️</span> Teaching And Mentorship </h2>
                     <div class="section-content">
                         <div class="indented-list">
                             <ul class="indented-list-long">
@@ -308,10 +308,10 @@
             
             if (content.style.display === 'none') {
                 content.style.display = 'block';
-                toggleIcon.textContent = 'v';  // Down arrow
+                toggleIcon.textContent = '✖️';  // Up arrow
             } else {
                 content.style.display = 'none';
-                toggleIcon.textContent = '^';  // Up arrow
+                toggleIcon.textContent = '➕️';  // Down arrow
             }
         }
 
@@ -327,7 +327,6 @@
             // If the browser is not Chrome, show the warning banner
             if (!isChrome) {
                 const banner = document.getElementById('warning-banner');
-                banner.style.display = 'block';
 
                 // Hide the banner after 5 seconds
                 setTimeout(function() {
