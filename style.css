@@ -35,11 +35,13 @@ header {
 }
 
 .map {
-    width: 300px; /* Adjust width */
+    width: 300px;  /* Adjust width */
     height: auto;  /* Automatically scale height based on width */
-    margin-right: 30px;
+    margin: 0 auto; /* Horizontally center the element */
+    display: block; /* Ensure it's treated as a block element */
     /* Removed border-radius for rectangle shape */
 }
+
 
 .profile-details {
     flex-grow: 1;
