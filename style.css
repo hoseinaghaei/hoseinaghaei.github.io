@@ -34,6 +34,13 @@ header {
     /* Removed border-radius for rectangle shape */
 }
 
+.map {
+    width: 300px; /* Adjust width */
+    height: auto;  /* Automatically scale height based on width */
+    margin-right: 30px;
+    /* Removed border-radius for rectangle shape */
+}
+
 .profile-details {
     flex-grow: 1;
 }
