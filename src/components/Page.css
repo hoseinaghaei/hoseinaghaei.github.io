@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Roboto&display=swap');
+
+.bio {
+    font-weight: 7000;
+    line-height: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    color: rgb(0, 0, 0);
+    width: 65%;
+    padding-top: 3vh;
+    padding-left: 35vh;
+    padding-right: 30vh;
+    font-family: SansSerif;
+    font-size: 18px; /* Increased font size */
+}

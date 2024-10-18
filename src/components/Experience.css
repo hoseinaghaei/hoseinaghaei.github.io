@@ -1,0 +1,59 @@
+.exp {
+    font-weight: 600;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    padding-top: 3vh;
+    padding-left: 35vh;
+    padding-right: 30vh;
+}
+
+.section {
+    margin-bottom: 40px; /* Add space between Work and Research sections */
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;  /* Adds a light border around the experience item */
+    border-radius: 8px;  /* Slightly round corners for a softer look */
+    padding: 15px;  /* Padding inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for depth */
+    background-color: #fff;  /* White background for each item */
+}
+
+.experience-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;  /* Add space between the title and the company */
+}
+
+.company-link {
+    font-size: 16px;
+    color: #0066c0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.company-link:hover {
+    text-decoration: underline;
+}
+
+.experience-dates {
+    font-size: 14px;
+    color: #777;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.experience-tasks {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 10px;  /* Space between the date and tasks */
+}
+
+.experience-tasks li {
+    margin-bottom: 5px;
+}

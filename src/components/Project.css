@@ -1,0 +1,65 @@
+/* Ensure that the main content is displayed correctly next to the sidebar */
+.exp {
+    font-weight: 600;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    /*margin-left: 0%; !* Adjust this to match the width of the sidebar *!*/
+    width: 75%; /* Adjust to ensure the content fits next to the sidebar */
+    padding-top: 3vh;
+    padding-right: 5vh;
+}
+
+.section {
+    margin-bottom: 40px; /* Add space between sections */
+}
+
+/* New grid for two items side by side */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Space between the items */
+    justify-content: space-between;
+}
+
+/* Ensure each project item fits nicely in the grid */
+.project-item {
+    border: 1px solid #ddd;  /* Adds a light border around the project item */
+    border-radius: 8px;  /* Slightly round corners for a softer look */
+    padding: 15px;  /* Padding inside the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Adds a subtle shadow for depth */
+    background-color: #fff;  /* White background for each item */
+}
+
+.project-title-link {
+    text-decoration: none;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0066c0;
+    margin-bottom: 5px;  /* Add space between the title and the date */
+}
+
+.project-title-link:hover .project-title {
+    text-decoration: underline;
+}
+
+.experience-dates {
+    font-size: 14px;
+    color: #777;
+    font-style: italic;
+}
+
+.experience-tasks {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 10px;  /* Space between the date and tasks */
+}
+
+.experience-tasks li {
+    margin-bottom: 5px;
+}
