@@ -1,27 +1,38 @@
-name: CI
+name: Start Server
 
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:
-  build:
+  start_server:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - uses: actions/checkout@v4
 
+      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '16'
 
-      # Use --legacy-peer-deps to avoid dependency conflicts
-      - name: Install dependencies with legacy-peer-deps
+      # Step 3: Install dependencies
+      - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Run npm start
-        run: npm start
+      # Step 4: Start the server in the background
+      - name: Start the server
+        run: |
+          npm start & # Start the server in the background
+
+      # Optional: You can add any command here that interacts with your server
+      # e.g., curl command to check if the server is running
+      - name: Wait for server to start
+        run: sleep 10 # Wait for 10 seconds to let the server start
+
+      # Step 5: Example: Check if the server is running (curl request to the server)
+      - name: Test the server is running
+        run: curl http://localhost:3000
