@@ -112,24 +112,6 @@
     padding-top: 2vh;
 }
 
-/* Add this to make sure the footer links are aligned horizontally */
-#header .pro-sidebar-footer {
-    display: flex;
-    justify-content: center;
-}
-
-#header .menuitem a {
-    margin: 0 5px; /* Adds space between GitHub and LinkedIn icons */
-}
-
-/* Adjust the size of the footer container */
-#header .pro-sidebar-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*padding-bottom: 20px;*/
-}
-
 @media only screen and (max-width: 720px) {
     html {
         overflow: hidden;

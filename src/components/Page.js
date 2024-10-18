@@ -29,6 +29,12 @@ class Page extends Component {
           For more information see <a href="/exp">experience</a>
 
         </div>
+
+        <div className="map">
+          <script type="text/javascript" id="clustrmaps"
+                  src="//clustrmaps.com/map_v2.js?d=BoOk5rTKBwGrVz_1s7lmgwhEZ5Zcg_vpGzwCf-hKBtE&cl=ffffff&w=a"></script>
+        </div>
+
       </div>
 
     );
