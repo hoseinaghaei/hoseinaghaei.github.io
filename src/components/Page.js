@@ -12,7 +12,7 @@ class Page extends Component {
           <p>My name is <b>Hossein Aghaei</b> (حسین آقائی in Persian);
             <br/>
             I am a senior bachelor student in the computer engineering department
-            at Sharif University of Technology (SUT) with a total GPA of <b>19.12/20 (19.83 in 2 last years)</b>.
+            at Sharif University of Technology (SUT) with a total GPA of <b>19.13/20 (19.83 in 2 last years)</b>.
             <br/>
             My research interests are <b> Database Management, Software Engineering & Programming Languages and
               Distributed Systems.
