@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { withRouter } from './withRouter'
 import "./Publication.css"
 
+import hamlet from '../file/HAMLET.pdf';
+
 class Publication extends Component {
     genPublicationHelper = (pubItem) => {
         if (!pubItem[2]) {
@@ -12,10 +14,10 @@ class Publication extends Component {
 
     genPublication = () => {
         const myLists = [
-            ['integrate the IoTDB with different communicating protocols suitable for IoT devices',
-                'Hossein Aghaei, Bardia Safaei', false],
-            ['Thermal-Aware Fault-Tolerance in Heterogeneous Multi-Core Systems Using Adaptive Machine Learning',
-                'Amirhossein Ansari, Hossein Aghaei, Mohsen Ansari, DAC 2025', false]
+            ['HAMLET: Adaptive Machine Learning-based Thermal Management in Fault-Tolerant Heterogeneous Multicore Systems',
+                'Amirhossein Ansari, Hossein Aghaei, Mohsen Ansari, DAC 2024', hamlet],
+            ['Integrate the IoTDB with different communicating protocols suitable for IoT devices',
+                'Hossein Aghaei, Bardia Safaei', false]
         ];
         const listItems = myLists.map((myList) =>
             this.genPublicationHelper(myList)
