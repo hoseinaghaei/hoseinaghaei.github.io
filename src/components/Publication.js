@@ -15,7 +15,7 @@ class Publication extends Component {
     genPublication = () => {
         const myLists = [
             ['HAMLET: Adaptive Machine Learning-based Thermal Management in Fault-Tolerant Heterogeneous Multicore Systems',
-                'Amirhossein Ansari, Hossein Aghaei, Mohsen Ansari, DAC 2024', hamlet],
+                'Amirhossein Ansari, Hossein Aghaei, Mohsen Ansari, DAC 2025', hamlet],
             ['Integrate the IoTDB with different communicating protocols suitable for IoT devices',
                 'Hossein Aghaei, Bardia Safaei', false]
         ];
