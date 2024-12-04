@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {withRouter} from './withRouter';
+import {Link} from 'react-router-dom';
+
 
 import "./Page.css";
 
@@ -26,7 +28,7 @@ class Page extends Component {
           {/*  */}
           {/*</p>*/}
 
-          For more information see <a href="/exp">experience</a>
+          For more information see <Link to="/exp">experience</Link>
 
         </div>
 
