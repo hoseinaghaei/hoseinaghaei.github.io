@@ -1,10 +1,10 @@
 #header {
-    position: absolute;
+    position: fixed;
     width: 260px;
 }
 
 #header .pro-sidebar {
-    height: 95vh;
+    height: 100vh;
 }
 
 #header .pro-sidebar {
@@ -35,13 +35,18 @@
 }
 
 #header .pro-sidebar-inner .pro-sidebar-layout ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 0 5px;
 }
 
 #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
     color: #000;
-    margin: 10px 0px;
+    margin: 5px 10px;
     font-weight: bold;
+    padding: 0;
 }
 
 #header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
@@ -73,7 +78,6 @@
     display: flex; /* Flexbox for the footer container */
     justify-content: center; /* Centers the items horizontally */
     align-items: center; /* Centers the items vertically */
-    padding-bottom: 20px;
 }
 
 .menuitem {
@@ -84,7 +88,7 @@
 }
 
 .menuitem a {
-    margin: 0 10px; /* Space between the GitHub and LinkedIn icons */
+    margin: 0 5px; /* Space between the GitHub and LinkedIn icons */
 }
 
 .menuitem .social-buttons {

@@ -55,8 +55,8 @@ class Header extends Component {
               {/*</div>*/}
             </MenuItem>
           </SidebarHeader>
-          <SidebarContent>
-            <Menu iconShape="square">
+          <SidebarContent style={{flexGrow: 1, overflowY: 'auto'}}>
+            <Menu iconShape="square" style={{height: '100%'}}>
               <MenuItem className="hover" icon={<FiHome/>}>
                 <Link to="/" className="link">
                   Home
@@ -98,7 +98,6 @@ class Header extends Component {
               </MenuItem>
             </Menu>
           </SidebarContent>
-
           <SidebarFooter>
             <Menu iconShape="square">
               <MenuItem className="menuitem">
