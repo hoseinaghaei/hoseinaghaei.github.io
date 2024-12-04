@@ -6,9 +6,8 @@
     flex-direction: column;
     color: rgb(0, 0, 0);
     /*margin-left: 0%; !* Adjust this to match the width of the sidebar *!*/
-    width: 75%; /* Adjust to ensure the content fits next to the sidebar */
+    width: 80%; /* Adjust to ensure the content fits next to the sidebar */
     padding-top: 3vh;
-    padding-right: 5vh;
 }
 
 .section {

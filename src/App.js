@@ -21,24 +21,26 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Routes>
-          <Route exact path="/" element={<Page />} />
-          <Route
-            exact
-            path="/pub"
-            element={<Publication />}
-          />
-          <Route
-            exact
-            path="/exp"
-            element={<Experience />}
-          />
-          <Route
-            exact
-            path="/project"
-            element={<Project />}
-          />
-        </Routes>
+        <div className="Main">
+          <Routes>
+            <Route exact path="/" element={<Page />} />
+            <Route
+                exact
+                path="/pub"
+                element={<Publication />}
+            />
+            <Route
+                exact
+                path="/exp"
+                element={<Experience />}
+            />
+            <Route
+                exact
+                path="/project"
+                element={<Project />}
+            />
+          </Routes>
+        </div>
       </div>
     )
   }
