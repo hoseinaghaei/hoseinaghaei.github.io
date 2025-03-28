@@ -104,9 +104,9 @@ class Header extends Component {
                 <SocialIcon url="https://github.com/hoseinaghaei" className="social-buttons" network="github"
                             bgColor="white"
                             fgColor="#000" style={{height: 50, width: 50}}/>
-                <SocialIcon url="https://www.linkedin.com/in/hossein-aghaei-araei/" className="social-buttons"
-                            network="linkedin" bgColor="white"
-                            fgColor="#000" style={{height: 50, width: 50}}/>
+                {/*<SocialIcon url="https://www.linkedin.com/in/hossein-aghaei-araei/" className="social-buttons"*/}
+                {/*            network="linkedin" bgColor="white"*/}
+                {/*            fgColor="#000" style={{height: 50, width: 50}}/>*/}
               </MenuItem>
             </Menu>
           </SidebarFooter>
