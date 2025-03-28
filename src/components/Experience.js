@@ -101,10 +101,10 @@ class Experience extends Component {
           {researchExperiences.map(this.renderExperience)}
         </div>
 
-        <div className="section">
-          <h2>Work Experience</h2>
-          {workExperiences.map(this.renderExperience)}
-        </div>
+        {/*<div className="section">*/}
+        {/*  <h2>Work Experience</h2>*/}
+        {/*  {workExperiences.map(this.renderExperience)}*/}
+        {/*</div>*/}
       </div>
     );
   }
