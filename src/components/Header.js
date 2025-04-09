@@ -17,7 +17,6 @@ import "./Header.css";
 import {Link} from 'react-router-dom';
 import ReactRoundedImage from "react-rounded-image";
 import photo from '../photos/me_1.jpg';
-import cv from '../file/cv-hossein-aghaei.pdf';
 
 function Mailto({email, subject, body, ...props}) {
   return (
