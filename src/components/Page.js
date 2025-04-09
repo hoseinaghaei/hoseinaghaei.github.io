@@ -41,26 +41,22 @@ class Page extends Component {
 
         </div>
 
-        <div className="bio">
-          <div>
-            <h2>News</h2>
-            <li>
-              <i>
-                Nov-2024: Our paper <b>
-                <a href={hamlet}> HAMLET </a>
-              </b>
-                has been submitted to DAC-2025.
-              </i>
-            </li>
+        {/*<div className="bio">*/}
+        {/*  <div>*/}
+        {/*    <h2>News</h2>*/}
+        {/*    <li>*/}
+        {/*      <i>*/}
+        {/*      </i>*/}
+        {/*    </li>*/}
 
-          </div>
+        {/*  </div>*/}
 
-          <div className="map">
-            <script type="text/javascript" id="clustrmaps"
-                    src="//clustrmaps.com/map_v2.js?d=BoOk5rTKBwGrVz_1s7lmgwhEZ5Zcg_vpGzwCf-hKBtE&cl=ffffff&w=a"></script>
-          </div>
+        {/*  <div className="map">*/}
+        {/*    <script type="text/javascript" id="clustrmaps"*/}
+        {/*            src="//clustrmaps.com/map_v2.js?d=BoOk5rTKBwGrVz_1s7lmgwhEZ5Zcg_vpGzwCf-hKBtE&cl=ffffff&w=a"></script>*/}
+        {/*  </div>*/}
 
-        </div>
+        {/*</div>*/}
 
       </div>
 
