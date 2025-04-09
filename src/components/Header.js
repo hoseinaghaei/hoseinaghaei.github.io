@@ -77,11 +77,11 @@ class Header extends Component {
                   Project
                 </Link>
               </MenuItem>
-              <MenuItem className="hover" icon={<BiBookContent/>}>
-                <a href={cv} className="link">
-                  Resume
-                </a>
-              </MenuItem>
+              {/*<MenuItem className="hover" icon={<BiBookContent/>}>*/}
+              {/*  <a href={cv} className="link">*/}
+              {/*    Resume*/}
+              {/*  </a>*/}
+              {/*</MenuItem>*/}
               <MenuItem className="hover" icon={<BiBook/>}>
                 <a href={transcript} className="link">
                   Transcript
