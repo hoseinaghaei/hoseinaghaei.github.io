@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.8c065d2b.css",
-    "main.js": "/static/js/main.0c7f546a.js",
+    "main.js": "/static/js/main.55c491c9.js",
     "static/js/787.b65bfdc0.chunk.js": "/static/js/787.b65bfdc0.chunk.js",
     "static/media/HAMLET.pdf": "/static/media/HAMLET.09d3695560286e53911e.pdf",
     "static/media/transcript-hossein-aghaei.pdf": "/static/media/transcript-hossein-aghaei.5ec918ecd9980060d237.pdf",
-    "static/media/cv-hossein-aghaei.pdf": "/static/media/cv-hossein-aghaei.2c216baeac9b975dd0b1.pdf",
     "static/media/me_1.jpg": "/static/media/me_1.bddeced7246aa7cc7459.jpg",
     "index.html": "/index.html",
     "main.8c065d2b.css.map": "/static/css/main.8c065d2b.css.map",
-    "main.0c7f546a.js.map": "/static/js/main.0c7f546a.js.map",
+    "main.55c491c9.js.map": "/static/js/main.55c491c9.js.map",
     "787.b65bfdc0.chunk.js.map": "/static/js/787.b65bfdc0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c065d2b.css",
-    "static/js/main.0c7f546a.js"
+    "static/js/main.55c491c9.js"
   ]
 }
