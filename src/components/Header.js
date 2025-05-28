@@ -61,11 +61,11 @@ class Header extends Component {
                   Home
                 </Link>
               </MenuItem>
-              <MenuItem className="hover" icon={<FiEdit/>}>
-                <Link to="/pub" className="link">
-                  Publications
-                </Link>
-              </MenuItem>
+              {/*<MenuItem className="hover" icon={<FiEdit/>}>*/}
+              {/*  <Link to="/pub" className="link">*/}
+              {/*    Publications*/}
+              {/*  </Link>*/}
+              {/*</MenuItem>*/}
               <MenuItem className="hover" icon={<FiEdit3/>}>
                 <Link to="/exp" className="link">
                   Experience
